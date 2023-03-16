@@ -15,9 +15,8 @@ public class IndexController {
         return "index";
     }
 
-    @GetMapping("/post/save")
-    public String postsSave()
-    {
+    @GetMapping("/posts/save")
+    public String postsSave() {
         return "posts-save";
     }
 
