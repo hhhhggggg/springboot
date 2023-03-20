@@ -1,8 +1,8 @@
 env:  
   S3_BUCKET_NAME: hhhhggggg
   PROJECT_NAME: springboot
-  CODE_DEPLOY_APP_NAME: code-deploy
-  CODE_DEPLOY_GROUP_NAME: springboot-server
+  CODE_DEPLOY_APP_NAME: deployapplication
+  CODE_DEPLOY_GROUP_NAME: deploy-group
   
 name: deploy
 
