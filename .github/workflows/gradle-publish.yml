@@ -2,7 +2,7 @@ env:
   S3_BUCKET_NAME: codedeploy-springboot
   PROJECT_NAME: springboot
   
-name: springboot-cicd
+name: springboot
 on:
   release:
     types: [push] 
