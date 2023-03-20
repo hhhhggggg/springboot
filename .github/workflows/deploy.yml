@@ -1,5 +1,5 @@
 env:  
-  S3_BUCKET_NAME: codedeploy-springboot
+  S3_BUCKET_NAME: hhhhggggg
   PROJECT_NAME: springboot
   
 name: deploy
@@ -49,7 +49,7 @@ jobs:
       shell: bash
     
     - name: Make zip file
-      run: zip -r ./$springboot.zip .
+      run: zip -r ./$PROJECT_NAME.zip .
       shell: bash
 
     - name: Configure AWS credentials
