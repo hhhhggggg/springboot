@@ -1,8 +1,8 @@
 env:  
   S3_BUCKET_NAME: hhhhggggg
   PROJECT_NAME: springboot
-  CODE_DEPLOY_APP_NAME: deployapplication
-  CODE_DEPLOY_GROUP_NAME: deploy-group
+  CODE_DEPLOY_APP_NAME: springboot-webservice
+  CODE_DEPLOY_GROUP_NAME: springboot-webservice-group
   
 name: deploy
 
@@ -76,3 +76,4 @@ jobs:
 
     - name: Code Deploy
       run: aws deploy create-deployment --application-name $CODE_DEPLOY_APP_NAME --deployment-config-name CodeDeployDefault.AllAtOnce --deployment-group-name $CODE_DEPLOY_GROUP_NAME --s3-location bucket=$S3_BUCKET_NAME,bundleType=zip,key=$PROJECT_NAME/$PROJECT_NAME.zip
+
