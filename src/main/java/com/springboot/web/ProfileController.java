@@ -1,6 +1,5 @@
 package com.springboot.web;
 
-import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import org.springframework.core.env.Environment;
 import org.springframework.web.bind.annotation.GetMapping;
