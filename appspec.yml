@@ -18,9 +18,9 @@ hooks:
       runas: ec2-user
   ApplicationStart:
     - location: start.sh
-      timeout: 300
+      timeout: 60
       runas: ec2-user
   ValidateService:
     - location: health.sh
-      timeout: 300
+      timeout: 60
       runas: ec2-user
